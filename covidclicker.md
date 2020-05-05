@@ -12,9 +12,7 @@ test
 
 [Home](https://keththemeifwa.github.io)
 {: style="text-align: left"}
-
 [About Me](aboutme)
 {: style="text-align: center"}
-
 [Games](games)
 {: style="text-align: right"}
