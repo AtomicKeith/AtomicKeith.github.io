@@ -5,4 +5,4 @@
 
 
 
-[Home Page]()
+[Home Page](https://keththemeifwa.github.io/CovidClicker)
