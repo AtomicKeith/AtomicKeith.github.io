@@ -3,8 +3,4 @@
 
 ---
 
-
-
-
-
-[Home Page](https://keththemeifwa.github.io)
+[Home](https://keththemeifwa.github.io) | [About Me](aboutme) | [Games](games)
