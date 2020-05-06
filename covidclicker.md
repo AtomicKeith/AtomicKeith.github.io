@@ -5,7 +5,7 @@ I developed Covid Clicker for a school project, specifically the Mosaics 8th Gra
 
 The Release/Stable Version can be found [Here](http://orteil.dashnet.org/igm/?g=http://raw.githubusercontent.com/KethTheMeifwa/CovidClicker/master/release/maincode.txt)
 
-The Beta Version can be found [Here](http://orteil.dashnet.org/igm/?g=http://raw.githubusercontent.com/KethTheMeifwa/CovidClicker/master/beta/maincode.txt)
+The Beta Version can be found [Here](http://orteil.dashnet.org/igm/?g=http://raw.githubusercontent.com/KethTheMeifwa/CovidClicker/master/beta/code/maincode.txt)
 
 ## Tutorial
 {: style="text-align: center"}
