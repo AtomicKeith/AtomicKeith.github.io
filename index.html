@@ -1,90 +1,114 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<!doctype html>
+<html lang="en-US">
+<head>
+    <title>Atomic_Keith</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trenton Ingles-Head | Home</title>
-    <meta name="description" content="The official website and portfolio of Trenton Ingles-Head.">
-    <meta name="author" content="Trenton Ingles-Head">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <style>
-    .fakeimg {
-      height: 200px;
-      background: #aaa;
-    }
-    </style>
-  </head>
-  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="shortcut icon" type="image/png" href="resources/images/windows/desktop/full-trash.png">
 
-    <div class="p-5 bg-primary text-white text-center">
-      <h1>Trenton Ingles-Head</h1>
-      <p>Software Developer and Gamer.</p> 
-    </div>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.cdnfonts.com/css/w95fa" rel="stylesheet">
+    
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-      <div class="container-fluid">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="https://atomickeith.github.io">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="gaming">Gaming</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="art">Art</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <script src="js/custom-html.js"></script>
+</head>
 
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-sm-4">
-          <h2>About Me</h2>
-          <h5>Photo of me:</h5>
-          <div class="fakeimg">Fake Image</div>
-          <p>I'm a 17-year-old Junior at Parkway North High School. I've been interested in coding since 2016, and have since developed some skills in a few languages, including but not limited to: HTML, CSS, Python, and Skript. I mostly play Minecraft and Fortnite, though I dabble in others.</p>
-          <h3 class="mt-4">New/Updated Articles</h3>
-          <p>That is, if I ever remember to update these links.</p>
-          <ul class="nav nav-pills flex-column">
-            <li class="nav-item">
-              <a class="nav-link active" href="https://atomickeith.github.io">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="404">404 Page</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Placeholder</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Placeholder</a>
-            </li>
-          </ul>
-          <hr class="d-sm-none">
+<body>
+
+    <main>
+        <desktop-icon tabindex="0" data-src="resources/images/windows/desktop/my-computer.png" data-text="About"></desktop-icon>
+        <desktop-icon tabindex="0" data-src="resources/images/windows/desktop/internet-explorer.png" data-text="Websites"></desktop-icon>
+        <desktop-icon tabindex="0" data-src="resources/images/windows/desktop/network.png" data-text="Socials"></desktop-icon>
+        <desktop-icon tabindex="0" data-src="resources/images/windows/desktop/my-documents.png" data-text="Projects"></desktop-icon>
+        <desktop-icon tabindex="0" data-src="resources/images/windows/desktop/paint.png" data-text="Paint"></desktop-icon>
+        <desktop-icon tabindex="0" data-src="resources/images/icons/SteamOldIcon.webp" data-text="Steam"></desktop-icon>
+    </main>
+    
+    <win-main id="about" style="top: 20%; left: 40%; z-index: 1; width: 300px;">
+        <win-nav data-title="About Me"></win-nav>
+        <div class="content">
+            <img id="logo" src="resources/images/pfp.jpg" alt="An anime boy with dark-brown/black hair sipping on some coffee.">
+            <span>
+                <h1 id="name">Keith__</h1>
+                <p>Future Software Engineer</p>
+                <ul>
+                    <li>18 y/o</li>
+                    <li>He/They</li>
+                    <li>Pansexual</li>
+                    <li>Depresso</li>
+                    <li>Programmer</li>
+                    <li>Gamer</li>
+                </ul>
+            </span>
         </div>
-        <div class="col-sm-8">
-          <h2>TITLE HEADING</h2>
-          <h5>Title description, Dec 7, 2020</h5>
-          <div class="fakeimg">Fake Image</div>
-          <p>Some text..</p>
-          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-
-          <h2 class="mt-5">TITLE HEADING</h2>
-          <h5>Title description, Sep 2, 2020</h5>
-          <div class="fakeimg">Fake Image</div>
-          <p>Some text..</p>
-          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </win-main>
+    
+    <win-main id="sites" style="top: 65%; left: 50%; width: 300px; z-index: 2;">
+        <win-nav data-title="Websites"></win-nav>
+        <div class="content">
+            <a href="https://atomickeith.github.io">Personal Site</a>
         </div>
-      </div>
-    </div>
+    </win-main>
 
-    <div class="mt-5 p-4 bg-dark text-white text-center">
-      <p>Copyright © 2022 Trenton Ingles-Head</p>
-    </div>
+    <win-main id="socials" style="top: 35%; left: 15%; z-index: 3;">
+        <win-nav data-title="Socials"></win-nav>
+        <div class="content">
+            <a target="_blank" href="https://github.com/AtomicKeith"><img src="resources/images/icons/github.svg" alt="Github"></a>
+            <a target="_blank" href="https://steamcommunity.com/profiles/76561198117446837"><img src="resources/images/icons/steam.svg" alt="Steam"></a>
+            <a target="_blank" href="https://discord.gg/MAQGWvbU3U"><img src="resources/images/icons/discord.svg" alt="Discord"></a>
+        </div>
+    </win-main>
+    
+    <win-main id="projects" style="top: 50%; left: 35%; z-index: 4;">
+        <win-nav data-title="Projects"></win-nav>
+        <div class="content">
+            <a target="_blank" href="Placeholder Link">Placeholder Link Name</a>
+        </div>
+    </win-main>
 
-  </body>
+    <win-main id="paint" style="top: 15%; left: calc(85% - 40vmin); z-index: 5; height: 40vmin; width: 40vmin;">
+        <win-nav data-title="JS Paint"></win-nav>
+        <iframe src="https://jspaint.app/" frameborder="0"></iframe>
+    </win-main>
+
+    <win-main id="steam" style="top: 25%; left: 30%; width: 400px; z-index: 5;">
+        <win-nav data-title="steam"></win-nav>
+        <div class="content">
+            <div class="banner"></div>
+            <img src="resources/images/Steam-Banner.png" alt="steam" width="250px">
+            <ul>
+                <li>Play the latest Valve games </li>
+                <li>Find your friends</li>
+                <li>Find the best servers</li>
+                <li>Get automatic updates</li>
+                <li>Chat with friends, even when in-game</li>
+                <li>Recieve Steam-only special offers</li>
+            </ul>
+            <a href="https://millennium.web.app/theme?id=8YTvx3fAAfwQSu6MNOfH">Get Theme Now</a>
+        </div>
+    </win-main>
+
+    <footer>
+        <div>
+            <a id="startbtn" href="#" target="_blank"><img src="resources/images/windows/windows-0.png" alt=""><p>Start</p></a>
+        </div>
+
+        <div id="item-holder">
+        </div>
+        
+        <div id="task-info">
+            <p><span id="hour">hrs</span>:<span id="minutes">mins</span> <span id="ampm">AM</span> </p>
+        </div>
+    </footer>
+    
+    <noscript>
+        
+        <p id="noscript"><img src="resouces/images/windows/messages/color-error.png" alt="Error Icon">Please Enable JavaScript<img src="resources/images/windows/messages/color-error.png" alt="Error Icon"></p>
+        <div></div>
+    </noscript>
+    
+    <script src="js/time-manager.js"></script>
+    <script src="js/window-manager.js"></script>
+    <script type="module" src="js/ytrandom.js"></script>
+</body>
 </html>
