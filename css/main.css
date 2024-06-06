@@ -1,0 +1,18 @@
+body {
+  background-color: #008083;
+}
+
+body {
+  height: 100vh;
+}
+
+#main-container {
+  height: 93.5%;
+}
+
+#taskbar-container {
+  height: 6.5%;
+  background-color: #c0c0c0;
+  box-shadow: 0px -2px #dfdfdf, 0px -4px #b5b5b5;
+  align-items: center;
+}
